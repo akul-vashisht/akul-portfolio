@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akul Vashisht - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #007acc;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #007acc;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .contact i {
+      margin-right: 0.5rem;
+    }
+    .project, .certificate, .achievement {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 1rem;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Akul Vashisht</h1>
+    <p>Computer Science Graduate | Machine Learning Enthusiast</p>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p><i class="fas fa-envelope"></i> akulvashisht010104@gmail.com</p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/akulvashisht" target="_blank">LinkedIn</a></p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/akul-vashisht" target="_blank">GitHub</a></p>
+    </section>
+
+    <section>
+      <h2>Resume</h2>
+      <a class="download-btn" href="Akul_Cv.pdf.pdf" download>Download My CV</a>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Spam Email Classifier</h3>
+        <p>Used NLP and machine learning (Naive Bayes) to classify emails as spam or ham.</p>
+        <p><strong>Tech Used:</strong> Python, Scikit-learn, NLTK</p>
+      </div>
+      <div class="project">
+        <h3>Stock Management System</h3>
+        <p>Built with Python and CSV for tracking inventory and sales of an electronics store.</p>
+        <p><strong>Tech Used:</strong> Python, CSV, File Handling</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certificates</h2>
+      <div class="certificate">Supervised Machine Learning – Stanford</div>
+      <div class="certificate">Data Analysis with Tableau – Salesforce</div>
+      <div class="certificate">Cloud Computing – NPTEL</div>
+      <div class="certificate">Excel Skills for Business – Macquarie University</div>
+      <div class="certificate">DSA (C++) – Self-Paced</div>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <div class="achievement">Founder of VIRSA Organization: Promoting culture & technical awareness.</div>
+      <div class="achievement">Planned Kite Mania: A large-scale cultural event.</div>
+      <div class="achievement">Managed IECON event: For entrepreneurship and innovation.</div>
+      <div class="achievement">Conducted tech workshops on emerging technologies.</div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C++, C, Python, R</li>
+        <li><strong>Web & Tools:</strong> HTML, CSS, MySQL, RStudio, Tableau, VSCode</li>
+        <li><strong>Soft Skills:</strong> Problem Solving, Teamwork, Adaptability</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Akul Vashisht. All rights reserved.
+  </footer>
+</body>
+</html>
